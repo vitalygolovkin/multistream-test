@@ -17,7 +17,7 @@ Write a Laravel SPA dashboard with authentication that shows multiple live video
 ## Must-have Features/Implementation
 
 * Use VueJS for the frontend - no page refreshes/reloads/server-side rendering 
-* Use JWPlayer for RTMP playback - Skype @benallfree for the license key if needed
+* Use JWPlayer for RTMP playback
 * Write a Laravel API `/api/v1/info` that uses Guzzle to make the underlying Wowza API request
 * Only authenticated users can access the dashboard and API
 * Only live output stream should have sound
