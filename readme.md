@@ -24,8 +24,9 @@ Write a Laravel SPA dashboard with authentication that shows multiple live video
 
 ## Bonus points (in order of WOW factor)
 
-* Use of `composer` packages
+* Use `composer` packages
 * Use of `npm`, `webpack`, and `es6` in the build process
+* Use `dingo` and JWT for API authentication instead of Laravel cookies
 * On the dashboard page, make a 'refresh' button that re-queries the API
 * Bringing focus to a video stream activates its sound and mutes all others
 * Allow selection of input stream to call `/api/live/switch?n=X` where X is the array index of `streams[]`
